@@ -35,3 +35,14 @@ This dataset is about Pakistan Property. The dataset is from Zameen.com website.
 # Screen Shots
 ### Data Cleaning
 ![Capture](https://user-images.githubusercontent.com/104086680/229904815-eb3eac91-cfc4-4822-80c3-e868cefaa6e2.PNG)
+
+![Capture1](https://user-images.githubusercontent.com/104086680/229905314-0436228a-18a7-4c06-87ee-a5e8edb25538.PNG)
+
+
+###EDA
+
+
+###Models:
+
+
+![Capture2](https://user-images.githubusercontent.com/104086680/229905579-c28bdb57-2c59-4c5a-b860-2110904af4de.PNG)
