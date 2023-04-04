@@ -9,4 +9,5 @@ This dataset is about Pakistan Property. The dataset is from Zameen.com website.
 2. Data Cleaning
   i. Filling null values
   ii. Drop the duplicate values
-  iii.
+  iii. Correcting the datatypes
+  iv. 
