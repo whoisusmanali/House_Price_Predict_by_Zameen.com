@@ -11,4 +11,7 @@ This dataset is about Pakistan Property. The dataset is from Zameen.com website.
   ii. Drop the duplicate values<br>
   iii. Correcting the datatypes<br>
   iv. Outliers detection<br>
-3. EDA
+3. EDA<br>
+  i. Seaborn<br>
+  ii. Matplotlib<br>
+  ii. plotly<br>
