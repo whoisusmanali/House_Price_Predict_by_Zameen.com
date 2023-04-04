@@ -15,3 +15,17 @@ This dataset is about Pakistan Property. The dataset is from Zameen.com website.
   i. Seaborn<br>
   ii. Matplotlib<br>
   ii. plotly<br>
+4. Model Building<br>
+  i. Libraries:<br>
+    i.i. Sklearn<br>
+    i.ii. pickle <br>
+  ii. Models list<br>
+    ii.i. Linear Regression<br>
+    ii.ii. Decision Tree<br>
+    ii.iii. Random Forest<br>
+    ii.iv. KNN<br>
+    ii.v. XG Boost<br>
+    ii.vi. Gradient Boost<br>
+    ii.vii. Ada boost<br>
+  iii. Select the best that was KNN with 90% accuracy.<br>
+  iv. Save it inot pickle file
