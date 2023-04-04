@@ -3,7 +3,7 @@ This dataset is about Pakistan Property. The dataset is from Zameen.com website.
 
 #Step Involved:
 1. Statical Analysis
-  i. Data Types
+  i. Data Types<br>
   ii. Level of Measurement
   iii. Mean, Standard Deviation, Min, Max
 2. Data Cleaning
