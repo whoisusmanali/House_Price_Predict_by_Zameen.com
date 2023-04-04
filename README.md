@@ -29,3 +29,9 @@ This dataset is about Pakistan Property. The dataset is from Zameen.com website.
     ii.vii. Ada boost<br>
   iii. Select the best that was KNN with 90% accuracy.<br>
   iv. Save it inot pickle file
+
+
+
+# Screen Shots
+### Data Cleaning
+![Capture](https://user-images.githubusercontent.com/104086680/229904815-eb3eac91-cfc4-4822-80c3-e868cefaa6e2.PNG)
