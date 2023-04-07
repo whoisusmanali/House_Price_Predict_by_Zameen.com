@@ -1,6 +1,33 @@
 # House_Price_Predict_by_Zameen.com
 This dataset is about Pakistan Property. The dataset is from Zameen.com website. Further, I do some data Cleaning and perform some EDA on the dataset. Lastly, apply Machine Learning Model on this and choose the best one.
 
+
+#### Property id: The unique value of each Property.
+#### Location id: The unique value of each location is based on the subcategory of the city.
+#### Page URL: The URL of the page where the property was published.
+#### Property type: In this section we have six different types:
+1. House
+2. FarmHouse
+3. Upper Portion
+4. Lower Portion
+5. Flat
+6. Room
+
+#### Price: Price is dependent feature/parameter in this dataset.
+#### City: In this dataset total number of cities are five:
+1. Lahore
+2. Karachi
+3. Faisalabad
+4. Rawalpindi
+5. Islamabad
+
+#### Province: Provice parameter is about the state of the city
+#### Location: It is about the different kind of location in each city.
+
+Lastly, Latitude and Longitude of the Cities.
+
+
+
 ## Step Involved:<br>
 1. Statical Analysis<br>
   i. Data Types<br>
