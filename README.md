@@ -83,7 +83,7 @@ Lastly, Latitude and Longitude of the Cities.
 
 ![newplot](https://user-images.githubusercontent.com/104086680/229906428-0d795afe-4574-4428-a5b7-f6ba2137fb55.png)
 
-### Models:
+### Models: 
 
 
 ![Capture2](https://user-images.githubusercontent.com/104086680/229905579-c28bdb57-2c59-4c5a-b860-2110904af4de.PNG)
