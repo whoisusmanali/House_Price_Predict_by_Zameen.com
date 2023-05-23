@@ -2,6 +2,8 @@
 This dataset is about Pakistan Property. The dataset is from Zameen.com website. Further, I do some data Cleaning and perform some EDA on the dataset. Lastly, apply Machine Learning Model on this and choose the best one.
 
 
+# About Dataset:
+
 #### Property id: The unique value of each Property.
 #### Location id: The unique value of each location is based on the subcategory of the city.
 #### Page URL: The URL of the page where the property was published.
@@ -28,7 +30,7 @@ Lastly, Latitude and Longitude of the Cities.
 
 
 
-## Step Involved:<br>
+# Step Involved:<br>
 1. Statical Analysis<br>
   i. Data Types<br>
   ii. Level of Measurement<br>
