@@ -1,5 +1,9 @@
 # House_Price_Predict_by_Zameen.com
-This dataset is about Pakistan Property. The dataset is from Zameen.com website. Further, I do some data Cleaning and perform some EDA on the dataset. Lastly, apply Machine Learning Model on this and choose the best one.
+The dataset utilized for this project was sourced from Zameen.com, Pakistan's premier online real estate marketplace. Leveraging Microsoft SQL Server, we conducted comprehensive data cleaning and analysis to extract pertinent insights. Python served as the primary tool for data preprocessing, feature engineering, and data mining, leveraging key libraries such as Pandas, NumPy, Matplotlib, and Seaborn for effective data wrangling and visualization.
+
+Following meticulous data preparation, the refined dataset underwent machine learning modeling. Employing a repertoire of tools including Scikit-learn, TensorFlow, and Keras, we delved into predictive analytics. Given the regression nature of the dataset, a suite of algorithms including XGBoost, Linear Regression, and Artificial Neural Networks (ANN) were deployed. Remarkably, XGBoost emerged as the optimal choice, exhibiting unparalleled performance with a test accuracy surpassing 90%, thereby outperforming alternative models.
+
+This meticulous process reflects our commitment to delivering robust insights and predictive models in real estate analytics, underscoring our dedication to excellence in data-driven decision-making.
 
 #Libraries/Dependencies:
 1. Pandas
