@@ -4,103 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>House Price Prediction</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <style>
-        /* Basic reset */
-        body, h1, form, input, select {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-            font-family: Arial, sans-serif;
-            background: #f4f4f9;
-            color: #333;
-            padding: 20px;
-        }
-
-        .container {
-            max-width: 600px;
-            margin: 0 auto;
-            padding: 20px;
-            background: #fff;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-
-        h1 {
-            text-align: center;
-            color: #4CAF50;
-            margin-bottom: 20px;
-        }
-
-        form {
-            display: flex;
-            flex-direction: column;
-        }
-
-        label {
-            font-weight: bold;
-            margin-bottom: 5px;
-        }
-
-        select, input[type="number"] {
-            margin-bottom: 15px;
-            padding: 10px;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-            font-size: 16px;
-        }
-
-        select:focus, input[type="number"]:focus {
-            border-color: #4CAF50;
-            outline: none;
-        }
-
-        .form-group {
-            display: flex;
-            align-items: center;
-            margin-bottom: 15px;
-        }
-
-        .form-group i {
-            margin-right: 10px;
-            color: #4CAF50;
-        }
-
-        .btn {
-            background: #4CAF50;
-            color: #fff;
-            padding: 10px;
-            border: none;
-            border-radius: 5px;
-            font-size: 16px;
-            cursor: pointer;
-            transition: background 0.3s;
-        }
-
-        .btn:hover {
-            background: #45a049;
-        }
-
-        .result {
-            margin-top: 20px;
-            text-align: center;
-        }
-
-        .result h2 {
-            color: #333;
-        }
-    </style>
 </head>
 <body>
     <div class="container">
         <h1><i class="fas fa-home"></i> House Price Prediction</h1>
         <form action="/predict" method="post">
             <div class="form-group">
-                <i class="fas fa-building"></i>
-                <label for="property_type">Property Type</label>
+                <label for="property_type"><i class="fas fa-building"></i> Property Type</label>
                 <select name="property_type" id="property_type">
                     <option value="Flat">Flat</option>
                     <option value="House">House</option>
@@ -113,8 +25,7 @@
             </div>
 
             <div class="form-group">
-                <i class="fas fa-city"></i>
-                <label for="city">City</label>
+                <label for="city"><i class="fas fa-city"></i> City</label>
                 <select name="city" id="city">
                     <option value="Islamabad">Islamabad</option>
                     <option value="Lahore">Lahore</option>
@@ -125,14 +36,12 @@
             </div>
 
             <div class="form-group">
-                <i class="fas fa-bath"></i>
-                <label for="baths">Number of Baths</label>
+                <label for="baths"><i class="fas fa-bath"></i> Number of Baths</label>
                 <input type="number" name="baths" id="baths" required>
             </div>
 
             <div class="form-group">
-                <i class="fas fa-tag"></i>
-                <label for="purpose">Purpose</label>
+                <label for="purpose"><i class="fas fa-tag"></i> Purpose</label>
                 <select name="purpose" id="purpose">
                     <option value="For Sale">For Sale</option>
                     <option value="For Rent">For Rent</option>
@@ -140,23 +49,21 @@
             </div>
 
             <div class="form-group">
-                <i class="fas fa-bed"></i>
-                <label for="bedrooms">Number of Bedrooms</label>
+                <label for="bedrooms"><i class="fas fa-bed"></i> Number of Bedrooms</label>
                 <input type="number" name="bedrooms" id="bedrooms" required>
             </div>
 
             <div class="form-group">
-                <i class="fas fa-ruler-combined"></i>
-                <label for="Area_in_Marla">Area (in Marla)</label>
+                <label for="Area_in_Marla"><i class="fas fa-ruler-combined"></i> Area (in Marla)</label>
                 <input type="number" name="Area_in_Marla" id="Area_in_Marla" required>
             </div>
 
-            <button type="submit" class="btn"><i class="fas fa-search"></i> Predict Price</button>
+            <button type="submit"><i class="fas fa-search"></i> Predict Price</button>
         </form>
 
         {% if prediction is not none %}
         <div class="result">
-            <h2><i class="fas fa-dollar-sign"></i> Predicted Price: PKR{{ prediction }}</h2>
+            <h2><i class="fas fa-PKR-sign"></i> Price Must be: {{ prediction }}</h2>
         </div>
         {% endif %}
     </div>
