@@ -1,5 +1,7 @@
 flask
-pickle
 pandas
 sklearn
 scikit-learn
+sagemaker
+numpy
+ipykernel

@@ -7,14 +7,14 @@ import pandas as pd
 app = Flask(__name__)
 
 # Load the KNN model
-with open('/Users/usmanali/Uwindsor/AI/House_Price_Predict_by_Zameen.com/Python files/House_Price_Prediction_model.pkl', 'rb') as model_file:
+with open('/Users/usmanali/Uwindsor/AI/House_Price_Predict_by_Zameen.com/Flask_Server/Python files/House_Price_Prediction_model.pkl', 'rb') as model_file:
     model = pickle.load(model_file)
 
 # Define unique values for one-hot encoding
 unique_values = {
     'property_type': ['Flat', 'House', 'Penthouse', 'Lower Portion', 'Upper Portion', 'Room', 'Farm House'],
     'city': ['Islamabad', 'Lahore', 'Faisalabad', 'Rawalpindi', 'Karachi'],
-    'purpose': ['For Sale', 'For Rent']
+    'purpose': ['For Rent', 'For Sale']
 }
 
 # Define the feature names
